@@ -5,7 +5,7 @@
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			
+
 			// Global.
 				global: {
 					href: 'css/style.css',
@@ -74,12 +74,12 @@
 		},
 		plugins: {
 			layers: {
-				
+
 				// Config.
 					config: {
 						transform: true
 					},
-				
+
 				// Navigation Panel.
 					navPanel: {
 						animation: 'pushX',
@@ -87,7 +87,7 @@
 						clickToHide: true,
 						height: '100%',
 						hidden: true,
-						html: '<div data-action="moveElement" data-args="nav"></div>',
+						html: '',
 						orientation: 'vertical',
 						position: 'top-left',
 						side: 'left',
@@ -98,7 +98,7 @@
 					navButton: {
 						breakpoints: 'medium',
 						height: '4em',
-						html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span>',
+						html: '',
 						position: 'top-left',
 						side: 'top',
 						width: '6em'
@@ -109,9 +109,9 @@
 	});
 
 	$(function() {
-		
+
 		// jQuery ready stuff.
-		
+
 	});
 
 })(jQuery);
